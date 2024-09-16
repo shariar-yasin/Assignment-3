@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- fontawsome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- tailwind..daisy -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind script -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'gradient1': 'rgba(255, 255, 255, 0)',
+            'gradient2': 'rgba(255, 255, 255, 0)',
+
+            'colori': 'rgb(171, 239, 95)'
+
+
+          }
+        }
+      }
+    }
+  </script>
+
+
+</head>
+
+<body>
+  <section class="mt-12 py-10 container mx-auto 	 ">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-4  ">
+      <div class="col-sapn-1 lg:col-span-8 border">
+        <div class="grid grid-cols-1 lg:grid-cols-3">
+          <div class="col-span-1">
+            <img class="w-full lg:w-[260px] h-[175px]" src="./img1.png" alt="">
+          </div>
+
+          <div class="col-span-1 lg:col-span-2 ">
+            <h2>Commercial</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its
+              blend of rustic charm and modern .</p>
+            <h2>View Details</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-1 lg:col-span-4 border lg:pl-16 ">
+        <img class=" w-full lg:w-[326px] h-[179px]" src="./img2.png" alt="">
+      </div>
+    </div>
+
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-4  ">
+      <div class="col-sapn-1 lg:col-span-10 border">
+        <div class="grid grid-cols-1 lg:grid-cols-4">
+          <div class="col-span-1">
+            <img class="w-full lg:w-[226px] h-[179px]" src="./img3.png" alt="">
+          </div>
+
+          <div class="col-span-1">
+            <img class="w-full lg:w-[226px] h-[179px]" src="./img4.png" alt="">
+          </div>
+
+          <div class="col-span-1 lg:col-span-2 ">
+            <h2>Commercial</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its
+              blend of rustic charm and modern .</p>
+            <h2>View Details</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-1 lg:col-span-2 border ">
+        <img class=" w-full lg:w-[226px] h-[179px]" src="./img4.png" alt="">
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <div>
+    <div class="py-9 flex flex-col lg:flex-row gap-10">
+      <div>
+        <input type="text" placeholder="Type here" class="input input-bordered w-full lg:w-[473px]" />
+      </div>
+      <div>
+        <input type="text" placeholder="Type here" class="input input-bordered w-full lg:w-[473px]" />
+      </div>
+      
+     
+    </div>
+
+ <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+    <textarea class="textarea textarea-bordered" placeholder="Bio"></textarea>
+
+  </div>
+</body>
+
+</html>
